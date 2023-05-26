@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 200px;
+    background-image: url(./imagens/aindaestouacesso.jpg);
+    background-size:cover;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: normal;
+    text-align: center;
+}
+
+
+input,
+button{
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+table{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela{
+    margin-top: 30px;
+}
+
+td,th{
+    border: solid 1px;
+    width: 140px;
+    height: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+}
+button:focus{
+    cursor: pointer;
+    background-color: rgb(44, 41, 41);
+    color: rgb(138, 83, 83);
+}
